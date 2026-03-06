@@ -1,0 +1,75 @@
+🌟 MODULE 3: OPERATORS IN PYTHON
+✅ What are Operators? (Simple Explanation)
+
+Imagine you’re playing a game.
+You use buttons to:
+
+Add score
+
+Compare your level
+
+Check if you have enough coins
+
+Combine powers
+
+In Python, operators are like buttons that tell the computer what to do with values.
+
+Example:
+5 + 3 → the + button tells Python to add.
+
+
+
+✅ Why do we need Operators?
+
+Because programs need logic like:
+
+Add numbers
+
+Check conditions (>=, ==)
+
+Repeat tasks (with conditions)
+
+Combine logic (and, or)
+
+Change values (+=, -=)
+
+Without operators, coding is impossible.
+
+
+
+✅ Types of Operators (Overview)
+
+We will cover:
+
+Arithmetic Operators
+
+Comparison Operators
+
+Logical Operators
+
+Assignment Operators
+
+Membership Operators
+
+Identity Operators
+
+Bitwise Operators (beginner-friendly examples only)
+
+Everything with easy examples + real-world meaning.
+
+
+In Python, .strip() is a string method used to remove unwanted characters (by default, whitespace) from the beginning and end of a string.
+How it works:
+- text.strip() → removes spaces, tabs, and newline characters from both ends.
+- text.lstrip() → removes them only from the left side.
+- text.rstrip() → removes them only from the right side.
+Examples:
+name = "   Alice   "
+print(name.strip())   # "Alice"
+print(name.lstrip())  # "Alice   "
+print(name.rstrip())  # "   Alice"
+
+word = "!!!Hello!!!"
+print(word.strip("!"))  # "Hello"
+
+
